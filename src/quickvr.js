@@ -1,6 +1,5 @@
-window.WebVRConfig = {BUFFER_SCALE: 1.0};
-
-import 'webvr-polyfill/build/webvr-polyfill';
+import './config';
+import 'webvr-polyfill';
 
 import {
   Color,
