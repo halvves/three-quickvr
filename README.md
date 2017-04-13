@@ -43,6 +43,10 @@ app.addAnimation(animation);
 
 ```
 
+the above code will look something like this:
+
+![demo](example/example.gif)
+
 [npm-badge]: https://img.shields.io/npm/v/three-quickvr.svg
 [npm-badge-url]: https://www.npmjs.com/package/three-quickvr
 [license-badge]: https://img.shields.io/npm/l/three-quickvr.svg
