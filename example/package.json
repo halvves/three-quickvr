@@ -82,7 +82,7 @@
   },
   "dependencies": {
     "three": "^0.84.0",
-    "three-quickvr": "^0.1.0",
+    "three-quickvr": "^0.2.0",
     "three-vrcontrols-module": "^1.1.1",
     "three-vreffect-module": "^1.0.1",
     "webvr-polyfill": "^0.9.26",

@@ -5379,9 +5379,9 @@ text-table@^0.2.0, text-table@~0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
 
-three-quickvr@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/three-quickvr/-/three-quickvr-0.1.0.tgz#3fd063d7f16e5ae8f9d8ded16ab3032db2f6ce24"
+three-quickvr@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/three-quickvr/-/three-quickvr-0.2.0.tgz#4ffbb748e3690d12c963b92773efcf3cf6d20ef4"
   dependencies:
     three "^0.84.0"
     three-vrcontrols-module "^1.1.1"
