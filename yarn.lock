@@ -2054,21 +2054,21 @@ text-table@~0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
 
-three-vrcontrols-module@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/three-vrcontrols-module/-/three-vrcontrols-module-2.0.1.tgz#213f49aa880fc0797b43305a593f972f9faa5d7c"
+three-vrcontrols-module@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/three-vrcontrols-module/-/three-vrcontrols-module-2.1.0.tgz#9b9fb3223938c7f0c30805bb8930a51c0af2fbd2"
   dependencies:
-    three "^0.85.2"
+    three "^0.87.1"
 
-three-vreffect-module@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/three-vreffect-module/-/three-vreffect-module-2.0.0.tgz#5e5b117adced79c0b5e48f67240bc20da87285c4"
+three-vreffect-module@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/three-vreffect-module/-/three-vreffect-module-2.1.0.tgz#e60513852c20ebdf5d11d63f9374e2b39e81b1e1"
   dependencies:
-    three "^0.85.2"
+    three "^0.87.1"
 
-three@^0.85.2:
-  version "0.85.2"
-  resolved "https://registry.yarnpkg.com/three/-/three-0.85.2.tgz#8936f89c3668f7bf12f9b085ddf5dd409916ea27"
+three@^0.87.1:
+  version "0.87.1"
+  resolved "https://registry.yarnpkg.com/three/-/three-0.87.1.tgz#466a34edc4543459ced9b9d7d276b65216fe2ba8"
 
 through@^2.3.6:
   version "2.3.8"

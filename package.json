@@ -56,9 +56,9 @@
     }
   },
   "dependencies": {
-    "three": "^0.85.2",
-    "three-vrcontrols-module": "^2.0.1",
-    "three-vreffect-module": "^2.0.0",
+    "three": "^0.87.1",
+    "three-vrcontrols-module": "^2.1.0",
+    "three-vreffect-module": "^2.1.0",
     "webvr-polyfill": "^0.9.27",
     "webvr-ui": "^0.9.4"
   },
