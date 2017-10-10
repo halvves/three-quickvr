@@ -87,7 +87,25 @@ export default class App {
     });
     VR_BTN.appendChild(vrButton.domElement);
     MAGIC_WIN.addEventListener('click', function() {
-      vrButton.requestEnterFullscreen();
+      vrButton.requestEnterFullscreen().catch((e) => {
+        if (e.message === 'e.manager.enterFullscreen(...).then is not a function') {
+          console.log('webvr-ui fullscreen hotfix');
+        } else {
+          return e;
+        }
+      });
+    });
+
+    vrButton.getVRDisplay().then((display) => {
+      if (display) {
+        renderer.vr.setDevice(display);
+      }
+    }).catch((e) => {
+      if (e.message === 'No displays found') {
+        console.log('No VR Display Found');
+      } else {
+        return e;
+      }
     });
 
     navigator.getVRDisplays().then((displays) => {
