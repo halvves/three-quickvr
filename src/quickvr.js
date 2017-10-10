@@ -90,6 +90,18 @@ export default class App {
       vrButton.requestEnterFullscreen();
     });
 
+    vrButton.getVRDisplay().then((display) => {
+      if (display) {
+        renderer.vr.setDevice(display);
+      }
+    }).catch((e) => {
+      if (e.message === 'No displays found') {
+        console.log('No VR Display Found');
+      } else {
+        return e;
+      }
+    });
+
     navigator.getVRDisplays().then((displays) => {
       if (displays.length > 0) {
         this.vrDisplay = displays[0];
