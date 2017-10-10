@@ -59,8 +59,8 @@
     "three": "^0.87.1",
     "three-vrcontrols-module": "^2.1.0",
     "three-vreffect-module": "^2.1.0",
-    "webvr-polyfill": "^0.9.27",
-    "webvr-ui": "^0.9.4"
+    "webvr-polyfill": "^0.9.39",
+    "webvr-ui": "^0.10.0"
   },
   "devDependencies": {
     "babel-cli": "^6.24.0",

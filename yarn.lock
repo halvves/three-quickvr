@@ -2146,16 +2146,13 @@ verror@1.3.6:
   dependencies:
     extsprintf "1.0.2"
 
-webvr-polyfill@^0.9.27:
-  version "0.9.27"
-  resolved "https://registry.yarnpkg.com/webvr-polyfill/-/webvr-polyfill-0.9.27.tgz#507f3f1764d8dff4d98881e297e29fc911d7f26f"
-  dependencies:
-    eventemitter3 "^2.0.2"
-    object-assign "^4.0.1"
+webvr-polyfill@^0.9.39:
+  version "0.9.39"
+  resolved "https://registry.yarnpkg.com/webvr-polyfill/-/webvr-polyfill-0.9.39.tgz#0193d104924448227b1fcedf44d975eab2e5be21"
 
-webvr-ui@^0.9.4:
-  version "0.9.4"
-  resolved "https://registry.yarnpkg.com/webvr-ui/-/webvr-ui-0.9.4.tgz#fb7dbe9cbc6f84fe349ab28d22682f95059dc71b"
+webvr-ui@^0.10.0:
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/webvr-ui/-/webvr-ui-0.10.0.tgz#61e1be3ac1285021dcad954ca38fb860ac8d88c5"
   dependencies:
     eventemitter3 "^2.0.2"
     screenfull "^3.0.2"
