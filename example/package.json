@@ -81,7 +81,7 @@
     "webpack-glsl-loader": "^1.0.1"
   },
   "dependencies": {
-    "three": "^0.85.2",
-    "three-quickvr": "^1.0.0"
+    "three": "^0.87.1",
+    "three-quickvr": "^1.1.0"
   }
 }

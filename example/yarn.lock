@@ -5379,35 +5379,31 @@ text-table@^0.2.0, text-table@~0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
 
-three-quickvr@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/three-quickvr/-/three-quickvr-1.0.0.tgz#27970d204b2843ef76e6d66625b629d3eb499263"
+three-quickvr@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/three-quickvr/-/three-quickvr-1.1.0.tgz#ea5924a3d65637509695216ecc0cd38f198ee564"
   dependencies:
-    three "^0.85.2"
-    three-vrcontrols-module "^2.0.1"
-    three-vreffect-module "^2.0.0"
-    webvr-polyfill "^0.9.27"
-    webvr-ui "^0.9.4"
+    three "^0.87.1"
+    three-vrcontrols-module "^2.1.0"
+    three-vreffect-module "^2.1.0"
+    webvr-polyfill "^0.9.39"
+    webvr-ui "^0.10.0"
 
-three-vrcontrols-module@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/three-vrcontrols-module/-/three-vrcontrols-module-2.0.1.tgz#213f49aa880fc0797b43305a593f972f9faa5d7c"
+three-vrcontrols-module@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/three-vrcontrols-module/-/three-vrcontrols-module-2.1.0.tgz#9b9fb3223938c7f0c30805bb8930a51c0af2fbd2"
   dependencies:
-    three "^0.85.2"
+    three "^0.87.1"
 
-three-vreffect-module@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/three-vreffect-module/-/three-vreffect-module-2.0.0.tgz#5e5b117adced79c0b5e48f67240bc20da87285c4"
+three-vreffect-module@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/three-vreffect-module/-/three-vreffect-module-2.1.0.tgz#e60513852c20ebdf5d11d63f9374e2b39e81b1e1"
   dependencies:
-    three "^0.85.2"
+    three "^0.87.1"
 
-three@^0.84.0:
-  version "0.84.0"
-  resolved "https://registry.yarnpkg.com/three/-/three-0.84.0.tgz#95be85a55a0fa002aa625ed559130957dcffd918"
-
-three@^0.85.2:
-  version "0.85.2"
-  resolved "https://registry.yarnpkg.com/three/-/three-0.85.2.tgz#8936f89c3668f7bf12f9b085ddf5dd409916ea27"
+three@^0.87.1:
+  version "0.87.1"
+  resolved "https://registry.yarnpkg.com/three/-/three-0.87.1.tgz#466a34edc4543459ced9b9d7d276b65216fe2ba8"
 
 throttleit@^1.0.0:
   version "1.0.0"
@@ -5842,16 +5838,13 @@ websocket-extensions@>=0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.1.tgz#76899499c184b6ef754377c2dbb0cd6cb55d29e7"
 
-webvr-polyfill@^0.9.27:
-  version "0.9.27"
-  resolved "https://registry.yarnpkg.com/webvr-polyfill/-/webvr-polyfill-0.9.27.tgz#507f3f1764d8dff4d98881e297e29fc911d7f26f"
-  dependencies:
-    eventemitter3 "^2.0.2"
-    object-assign "^4.0.1"
+webvr-polyfill@^0.9.39:
+  version "0.9.39"
+  resolved "https://registry.yarnpkg.com/webvr-polyfill/-/webvr-polyfill-0.9.39.tgz#0193d104924448227b1fcedf44d975eab2e5be21"
 
-webvr-ui@^0.9.4:
-  version "0.9.4"
-  resolved "https://registry.yarnpkg.com/webvr-ui/-/webvr-ui-0.9.4.tgz#fb7dbe9cbc6f84fe349ab28d22682f95059dc71b"
+webvr-ui@^0.10.0:
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/webvr-ui/-/webvr-ui-0.10.0.tgz#61e1be3ac1285021dcad954ca38fb860ac8d88c5"
   dependencies:
     eventemitter3 "^2.0.2"
     screenfull "^3.0.2"
