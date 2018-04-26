@@ -58,7 +58,7 @@
   "dependencies": {
     "three-vrcontrols-module": "^2.2.1",
     "three-vreffect-module": "^2.2.0",
-    "webvr-polyfill": "^0.10.5",
+    "webvr-polyfill": "^0.9.39",
     "webvr-ui": "^0.10.0"
   },
   "devDependencies": {
