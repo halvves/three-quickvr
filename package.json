@@ -56,10 +56,9 @@
     }
   },
   "dependencies": {
-    "three": "^0.87.1",
-    "three-vrcontrols-module": "^2.1.0",
-    "three-vreffect-module": "^2.1.0",
-    "webvr-polyfill": "^0.9.39",
+    "three-vrcontrols-module": "^2.2.1",
+    "three-vreffect-module": "^2.2.0",
+    "webvr-polyfill": "^0.10.5",
     "webvr-ui": "^0.10.0"
   },
   "devDependencies": {
@@ -68,6 +67,10 @@
     "babel-preset-es2015": "^6.24.0",
     "eslint": "^3.19.0",
     "eslint-config-google": "^0.7.1",
-    "pre-commit": "^1.2.2"
+    "pre-commit": "^1.2.2",
+    "three": "^0.92.0"
+  },
+  "peerDependencies": {
+    "three": "^0.92.0"
   }
 }
