@@ -3,6 +3,7 @@
 [![Latest NPM release][npm-badge]][npm-badge-url]
 [![License][license-badge]][license-badge-url]
 [![Dependencies][dependencies-badge]][dependencies-badge-url]
+[![Peer Dependencies][peer-dependencies-badge]][peer-dependencies-badge-url]
 
 You'd probably do better just to use [aframe](https://aframe.io/), but if you need a way to fire up a vr scene in straight ahead THREE, this will get you going quick. [DEMO](http://halvves.com/three-quickvr/)
 
@@ -51,5 +52,7 @@ the above code will look something like this:
 [npm-badge-url]: https://www.npmjs.com/package/three-quickvr
 [license-badge]: https://img.shields.io/npm/l/three-quickvr.svg
 [license-badge-url]: ./LICENSE.md
+[peer-dependencies-badge]: https://david-dm.org/halvves/three-quickvr/peer-status.svg
+[peer-dependencies-badge-url]: https://david-dm.org/halvves/three-quickvr?type=peer
 [dependencies-badge]: https://img.shields.io/david/halvves/three-quickvr.svg
 [dependencies-badge-url]: https://david-dm.org/halvves/three-quickvr
