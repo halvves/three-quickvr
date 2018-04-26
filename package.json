@@ -1,7 +1,7 @@
 {
   "name": "three-quickvr",
   "description": "Get started with VR in THREE.js... QUICK.",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "repository": "https://github.com/halvves/three-quickvr.git",
   "bugs": {
     "url": "https://github.com/halvves/three-quickvr/issues"
