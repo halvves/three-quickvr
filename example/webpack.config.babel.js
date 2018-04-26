@@ -1,9 +1,11 @@
-import webpack from 'webpack';
-import ExtractTextPlugin from 'extract-text-webpack-plugin';
+import webpack from 'webpack'; // eslint-disable-line no-unused-vars
+import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 import FaviconsWebpackPlugin from 'favicons-webpack-plugin';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import RobotstxtPlugin from 'robotstxt-webpack-plugin';
 import path from 'path';
+
+const devMode = process.env.NODE_ENV !== 'production';
 
 // postcss
 import cssimport from 'postcss-import';
@@ -44,11 +46,12 @@ export default {
       },
       {
         test: /\.css$/,
-        use: ExtractTextPlugin.extract({
-          fallback: 'style-loader',
-          use: [{
+        use: [
+          devMode ? 'style-loader' : MiniCssExtractPlugin.loader,
+          {
             loader: 'css-loader',
-          }, {
+          },
+          {
             loader: 'postcss-loader',
             options: {
               plugins: () => [
@@ -59,8 +62,8 @@ export default {
                 cssreporter({clearReportedMessages: true}),
               ],
             },
-          }],
-        }),
+          },
+        ],
         exclude: /node_modules/,
       },
       {
@@ -74,12 +77,9 @@ export default {
     ],
   },
   plugins: [
-    new webpack.optimize.UglifyJsPlugin({
-      compress: {warnings: false},
-    }),
-    new ExtractTextPlugin({
+    new MiniCssExtractPlugin({
       filename: 'style_[hash].css',
-      allChunks: true,
+      chunkFilename: '[id].css',
     }),
     new FaviconsWebpackPlugin('favicon.png'),
     new HtmlWebpackPlugin({
