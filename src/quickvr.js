@@ -126,6 +126,10 @@ export default class App {
   }
 
   render() {
+    if (this.vrButton.isPresenting()) {
+      this.controls.update();
+    }
+
     this.effect.render(this.scene, this.camera);
 
     this.animations.forEach((animation, i, a) => {
@@ -133,10 +137,6 @@ export default class App {
     });
 
     this.vrDisplay.requestAnimationFrame(this.render);
-
-    if (this.vrButton.isPresenting()) {
-      this.controls.update();
-    }
   }
 
   resize(e) {

@@ -25,6 +25,7 @@
   "scripts": {
     "prebuild": "npm run lint",
     "build": "babel src --out-dir dist",
+    "prepare": "npm run build",
     "prepublish": "npm run build",
     "lint": "eslint quickvr.js"
   },
