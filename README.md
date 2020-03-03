@@ -1,58 +1,12 @@
-# Get started with VR in THREE.js... QUICK.
-
+# :no_entry: [DEPRECATED] Get started with VR in THREE.js... QUICK.
+![Unmaintained][maintenance-badge]
 [![Latest NPM release][npm-badge]][npm-badge-url]
 [![License][license-badge]][license-badge-url]
-[![Dependencies][dependencies-badge]][dependencies-badge-url]
-[![Peer Dependencies][peer-dependencies-badge]][peer-dependencies-badge-url]
 
-You'd probably do better just to use [aframe](https://aframe.io/), but if you need a way to fire up a vr scene in straight ahead THREE, this will get you going quick. [DEMO](http://halvves.com/three-quickvr/)
+The methods used by `three-quickvr` have been deprecated in favor of [WebXRManager](https://github.com/mrdoob/three.js/blob/dev/src/renderers/webxr/WebXRManager.js). More info can be found in the guide [How to create VR content](https://threejs.org/docs/index.html#manual/en/introduction/How-to-create-VR-content) and its related examples.
 
-1. Install:
-```bash
-npm i -S three-quickvr
-```
-
-2. Use:
-```javascript
-import QuickVR from 'three-quickvr';
-import {
-  BoxGeometry,
-  MeshLambertMaterial,
-  Mesh,
-  PointLight,
-  Vector3,
-} from 'three';
-
-const app = new QuickVR();
-
-const cube = new Mesh(
-  new BoxGeometry(50, 50, 50),
-  new MeshLambertMaterial({color: 0xffffff})
-);
-cube.position.set(0, 0, -150);
-app.add(cube);
-
-const light = new PointLight(0x0000ff);
-light.position.set(0, 100, 200);
-app.add(light);
-
-const axis = new Vector3(0, 1, 1);
-function animation() {
-  cube.rotateOnAxis(axis, -0.01);
-}
-app.addAnimation(animation);
-
-```
-
-the above code will look something like this:
-
-![demo](example/example.gif)
-
+[maintenance-badge]: https://img.shields.io/maintenance/no/2018
 [npm-badge]: https://img.shields.io/npm/v/three-quickvr.svg
 [npm-badge-url]: https://www.npmjs.com/package/three-quickvr
 [license-badge]: https://img.shields.io/npm/l/three-quickvr.svg
 [license-badge-url]: ./LICENSE.md
-[peer-dependencies-badge]: https://david-dm.org/halvves/three-quickvr/peer-status.svg
-[peer-dependencies-badge-url]: https://david-dm.org/halvves/three-quickvr?type=peer
-[dependencies-badge]: https://img.shields.io/david/halvves/three-quickvr.svg
-[dependencies-badge-url]: https://david-dm.org/halvves/three-quickvr
